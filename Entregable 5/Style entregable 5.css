@@ -19,8 +19,13 @@ main{
     background-repeat: no-repeat;
     background-position: center center;
     background-size:cover;
+    display: flex;
 
 }
+.ContenedorGrid{
+    display: grid;
+}
+
 .p1,.p2,.p3,.p4{
     color: white;
     line-height:0%
@@ -29,18 +34,23 @@ main{
     text-align: left;
     font-size: 20px;
     font-weight: 300;
+    grid-column: 1/4;
+    grid-row: 1/2;
 
 }
 .p2{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
-
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 .p3{
     text-align: center;
     font-size: 30px;
     font-weight: bold;
+    grid-column: 3/4;
+    grid-row: 2/3;
 
 }
 .p4{text-align: center;
@@ -49,11 +59,13 @@ main{
 }
 .p5{
     color: goldenrod;
-    text-align: center;
     line-height:0%
 
 }
 .p6{
-    text-align: center;
+    color: gray;
 
+}
+.footer{
+    text-align: center;
 }

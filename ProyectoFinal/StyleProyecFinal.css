@@ -1,18 +1,33 @@
-.parallax {
-    background-image: url("https://images.unsplash.com/photo-1532767153582-b1a0e5145009?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGRhcmslMjBhZXN0aGV0aWN8ZW58MHx8MHx8fDA%3D&w=1000&q=80");
+.parallax1{
+    background-image: url("https://elperiodicodesaltillo.com/wp/wp-content/uploads/2022/02/un-solo-hombreq.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
   }
-  
-  .content {
+  .parallax2{
+    background-image: url("https://adncultura.org/sites/default/files/2020-01/10382718_10153945379112619_7096504838452077056_n.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .parallax3{
+    background-image: url("https://cdn.culturagenial.com/es/imagenes/la-catrina-edited-cke.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+    .content1{
     padding: 100px;
     text-align: center;
     color: white;
   }
-  .contnegro{
+  .content1N,.content2N,.content3N{
     color: white;
   }
   body{

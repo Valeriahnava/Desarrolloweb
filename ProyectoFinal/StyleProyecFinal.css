@@ -22,14 +22,60 @@
     background-size: cover;
     height: 100vh;
   }
-    .content1{
-    padding: 100px;
-    text-align: center;
-    color: white;
+  .parallax4{
+    background-image: url("https://cdn.culturagenial.com/es/imagenes/la-catrina-edited-cke.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
   }
-  .content1N,.content2N,.content3N{
-    color: white;
+    .content1{
+    text-align: center;
+    color: #940B12;
+    font-style: oblique;
+    background-color: #ffdbbe8d;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .content2{
+    text-align: center;
+    color:#7B5DA6;
+    font-style: oblique;
+    background-color: #f1e9e6ab;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .content3{
+    text-align: center;
+    color:#025250;
+    font-style: oblique;
+    background-color: #f1e9e6ab;
+    font-weight: bold;
+    font-size: 50px;
+  }
+  .content1N,.content2N,.content3N,.content4N{
+    height: 50vh;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .content1N{
+    color: #A2F2DC;
+  }
+  .content2N{
+    color: #FDBFD3;
+  }
+  .content3N{
+    color: #F2B279;
+  }
+  .content4N{
+    color: #A2F2DC;
   }
   body{
     background-color: black;
+  }
+  img{
+    width:20%;
   }
